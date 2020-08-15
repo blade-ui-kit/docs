@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The `alert` component provides an easy integration with [Laravel's session flashing](https://laravel.com/docs/session#flash-data). By flashing messages to session from the back-end, the alert component picks them up and displays them in your Blade views. You can combine multiple types of messages, display multiple messages at once and compose styling per alert type.
+The `alert` component provides an easy integration with [Laravel's session flashing](https://laravel.com/docs/session#flash-data). By flashing messages to session from the backend, the alert component picks them up and displays them in your Blade views. You can combine multiple types of messages, display multiple messages at once and compose styling per alert type.
 
 ## Installation
 
-The `alert` component comes ready out-of-the box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `alert` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
 
 ## Displaying Alerts
 

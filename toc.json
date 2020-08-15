@@ -24,5 +24,12 @@
         "pages": [
             "alert"
         ]
+    },
+    {
+        "title": "Buttons",
+        "pages": [
+            "form-button",
+            "logout"
+        ]
     }
 ]
