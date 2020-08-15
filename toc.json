@@ -31,5 +31,11 @@
             "form-button",
             "logout"
         ]
+    },
+    {
+        "title": "DateTime",
+        "pages": [
+            "countdown"
+        ]
     }
 ]

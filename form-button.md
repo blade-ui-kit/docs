@@ -8,7 +8,7 @@ The `form-button` component enables you to perform HTTP requests using any HTTP 
 
 The `form-button` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
 
-## Simple Usage
+## Basic Usage
 
 The most basic usage of the component is defining an action is by setting an action and button text:
 

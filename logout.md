@@ -8,7 +8,7 @@ The `logout` component is a small convenience component which fills in a place f
 
 The `logout` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
 
-## Simple Usage
+## Basic Usage
 
 The most basic usage of the component is defining an action is by referencing it as a self-closed tag:
 
