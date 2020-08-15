@@ -1,0 +1,28 @@
+[
+    {
+        "pages": [
+            {
+                "slug": "introduction",
+                "icon": "heroicon-o-book-open"
+            },
+            {
+                "slug": "community",
+                "icon": "heroicon-o-chat-alt-2"
+            }
+        ]
+    },
+    {
+        "title": "Getting Started",
+        "pages": [
+            "installation",
+            "release-notes",
+            "upgrade-guide"
+        ]
+    },
+    {
+        "title": "Alerts",
+        "pages": [
+            "alert"
+        ]
+    }
+]
