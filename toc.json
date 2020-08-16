@@ -35,6 +35,7 @@
     {
         "title": "DateTime",
         "pages": [
+            "carbon",
             "countdown"
         ]
     }

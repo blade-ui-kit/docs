@@ -8,7 +8,7 @@ While the `countdown` component works out-of-the-box when you've set the directi
 
 ## Basic Usage
 
-In its most basic usage, you use it as a self closing component and pass it a `DateTimeInterface` instance through its `expires` attributes:
+In its most basic usage, you use it as a self closing component and pass it a `DateTimeInterface` instance through its `expires` attribute:
 
 ```html
 <x-countdown :expires="$date"/>
@@ -39,6 +39,6 @@ This will output the following:
 00 days 00 hours 00 minutes 00 seconds
 ```
 
-As you can see we're making use of the component's methods to output the initial state of the countdown. We then make use of Alpine's `x-text` to apply the calculated state depending on the current point in time. 
+As you can see we're making use of the component's methods to output the initial state of the countdown. We then make use of Alpine's `x-text` attribute to apply the calculated state depending on the current point in time. 
 
 Using the component's slot allows you to go pretty wild with customizing the look and feel. Take a look at [its usage in Blade UI Kit's example app](https://github.com/blade-ui-kit/blade-ui-kit-example/blob/main/resources/views/home.blade.php#L8-L33).
