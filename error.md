@@ -37,7 +37,12 @@ You can also opt to choose to composing how the rendered content look to. This a
 Let's assume we have the following validation errors:
 
 ```php
-['first_name' => ['Incorrect first name.', 'Needs at least 5 characters.']]
+[
+    'first_name' => [
+        'Incorrect first name.',
+        'Needs at least 5 characters.',
+    ]
+]
 ```
 
 Now we'll use the component's slot and its `messages()` method to render an unorderd list of the errors:
