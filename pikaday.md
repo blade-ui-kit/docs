@@ -24,14 +24,28 @@ This will output the following HTML *(inline JS has been omitted)*:
 
 ```html
 <input
-    name="birthday" 
-    type="text" 
-    id="birthday" 
-    placeholder="DD/MM/YYYY" 
+    name="birthday"
+    type="text"
+    id="birthday"
+    placeholder="DD/MM/YYYY"
 />
 ```
 
 As you can see, the component sets a couple of nice defaults for your component. The `placeholder` is also the date format used by Moment.js to render the date in the input field after choosing one.
+
+### Old Values
+
+The `pikaday` component also supports old values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `pikaday` component will remember the old value:
+
+```html
+<input
+    name="birthday"
+    type="text"
+    id="birthday"
+    value="20/05/1989"
+    placeholder="DD/MM/YYYY"
+/>
+```
 
 ## Customizing The Format
 
@@ -87,6 +101,8 @@ class Pikaday extends \BladeUIKit\Components\Forms\Pikaday
 }
 ```
 
+It's important in the above snippet that you call `parent::options()` so any options passed directly to the component are still applied as well. 
+
 After overwriting the component we'll need to register it in our `blade-ui-kit.php` config file. Make sure to replace the default one with your own class:
 
 ```
@@ -100,5 +116,3 @@ return [
     ],
 ];
 ```
-
-

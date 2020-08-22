@@ -40,6 +40,15 @@
         ]
     },
     {
+        "title": "Editors",
+        "pages": [
+            {
+                "name": "Easy MDE",
+                "slug": "easy-mde"
+            }
+        ]
+    },
+    {
         "title": "Inputs",
         "pages": [
             "pikaday"
