@@ -2,11 +2,11 @@
     {
         "pages": [
             {
-                "slug": "introduction",
+                "file": "introduction",
                 "icon": "heroicon-o-book-open"
             },
             {
-                "slug": "community",
+                "file": "community",
                 "icon": "heroicon-o-chat-alt-2"
             }
         ]
@@ -15,7 +15,10 @@
         "title": "Getting Started",
         "pages": [
             "installation",
-            "release-notes",
+            {
+                "file": "release-notes",
+                "link": "https://github.com/blade-ui-kit/blade-ui-kit/releases"
+            },
             "upgrade-guide"
         ]
     },
@@ -44,8 +47,9 @@
         "pages": [
             {
                 "name": "Easy MDE",
-                "slug": "easy-mde"
-            }
+                "file": "easy-mde"
+            },
+            "trix"
         ]
     },
     {

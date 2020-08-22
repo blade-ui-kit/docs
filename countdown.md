@@ -4,7 +4,9 @@ The `countdown` component provides you with an easy way to display a countdown t
 
 ## Installation
 
-While the `countdown` component works out-of-the-box when you've set the directives, we recommend that you install and compile [Alpine.js](https://github.com/alpinejs/alpine) when you deploy to production.
+While the `countdown` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
+
+- [Alpine.js](https://github.com/alpinejs/alpine)
 
 ## Basic Usage
 

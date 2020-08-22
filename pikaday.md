@@ -6,7 +6,7 @@ The `pikaday` component offers an integration with [the Pikaday datepicker libra
 
 ## Installation
 
-While the `pikaday` component works out-of-the-box when you've set the directives, we recommend that you install and compile its JavaScript libraries when you deploy to production:
+While the `pikaday` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Pikaday](https://github.com/Pikaday/Pikaday#installation)
@@ -105,7 +105,7 @@ It's important in the above snippet that you call `parent::options()` so any opt
 
 After overwriting the component we'll need to register it in our `blade-ui-kit.php` config file. Make sure to replace the default one with your own class:
 
-```
+```php
 <?php
 
 return [

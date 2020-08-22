@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The `easy-mde` component allows you to easily include a Markdown editor in your form. Behind the scenes it makes use of [the Easy MDE library](https://github.com/Ionaru/easy-markdown-editor). The written is passed through to a form as a normal textarea input.
+The `easy-mde` component allows you to easily include a Markdown editor in your form. Behind the scenes it makes use of [the Easy MDE library](https://github.com/Ionaru/easy-markdown-editor). The input is passed through to a form as a normal textarea input.
 
 ## Installation
 
-While the `easy-mde` component works out-of-the-box when you've set the directives, we recommend that you install and compile its JavaScript libraries when you deploy to production:
+While the `easy-mde` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Easy MDE](https://github.com/Ionaru/easy-markdown-editor)
@@ -76,7 +76,7 @@ It's important in the above snippet that you call `parent::options()` so any opt
 
 After overwriting the component we'll need to register it in our `blade-ui-kit.php` config file. Make sure to replace the default one with your own class:
 
-```
+```php
 <?php
 
 return [
