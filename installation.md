@@ -91,3 +91,5 @@ Now all components can be referenced as usual but with the prefix before their n
 ```html
 <x-buk-easy-mde name="about" />
 ```
+
+For obvious reasons, the docs don't use any prefix in their code examples. So keep this in mind when setting a prefix and copy/pasting code snippets.
