@@ -38,5 +38,11 @@
             "carbon",
             "countdown"
         ]
+    },
+    {
+        "title": "Inputs",
+        "pages": [
+            "pikaday"
+        ]
     }
 ]

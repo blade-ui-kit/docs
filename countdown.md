@@ -14,7 +14,7 @@ In its most basic usage, you use it as a self closing component and pass it a `D
 <x-countdown :expires="$date"/>
 ```
 
-This will output the following:
+This will output the following *(inline JS has been omitted)*:
 
 ```html
 00 : 00 : 00 : 00
@@ -33,7 +33,7 @@ You can define how the component is rendered by using its slot. Say you don't wa
 </x-countdown>
 ```
 
-This will output the following:
+This will output the following *(inline JS has been omitted)*:
 
 ```html
 00 days 00 hours 00 minutes 00 seconds
