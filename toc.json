@@ -53,6 +53,12 @@
         ]
     },
     {
+        "title": "Forms",
+        "pages": [
+            "form"
+        ]
+    },
+    {
         "title": "Inputs",
         "pages": [
             "pikaday"
