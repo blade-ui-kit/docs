@@ -1,7 +1,5 @@
 # Trix
 
-## Introduction
-
 The `trix` component allows you to easily include a rich text editor in your form. Behind the scenes it makes use of [the Trix library](https://trix-editor.org) from [Basecamp](https://basecamp.com). The input is passed through to a form as a normal textarea input.
 
 ## Installation

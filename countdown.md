@@ -1,6 +1,6 @@
 # Countdown
 
-The `countdown` component provides you with an easy way to display a countdown timer on your site. It makes use of JavaScript and [Alpine.js](https://github.com/alpinejs/alpine) to do the countdown. You can provide any `DateTimeInterface` object to start the calculation.
+The `countdown` component provides you with an easy way to display a countdown timer on your site. It makes use of JavaScript and [Alpine.js](https://github.com/alpinejs/alpine) to do the countdown. You can provide any `DateTimeInterface` object to start the countdown.
 
 ## Installation
 

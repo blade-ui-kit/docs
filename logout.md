@@ -1,7 +1,5 @@
 # Logout
 
-## Introduction
-
 The `logout` component is a small convenience component which fills in a place for a widely used concept in an app, the logout link. Often this action sits in a menu item with other hyperlinks. But a logout is meant as an actionable link rather than a `GET` request. Therefor a `POST` request is better suited. And thus it deserves its own component.
 
 ## Installation

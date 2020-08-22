@@ -55,7 +55,9 @@
     {
         "title": "Forms",
         "pages": [
-            "form"
+            "error",
+            "form",
+            "label"
         ]
     },
     {

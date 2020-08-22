@@ -1,7 +1,5 @@
 # Easy MDE
 
-## Introduction
-
 The `easy-mde` component allows you to easily include a Markdown editor in your form. Behind the scenes it makes use of [the Easy MDE library](https://github.com/Ionaru/easy-markdown-editor). The input is passed through to a form as a normal textarea input.
 
 ## Installation

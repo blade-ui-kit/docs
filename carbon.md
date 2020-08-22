@@ -1,7 +1,5 @@
 # Carbon
 
-## Introduction
-
 The `carbon` component in Blade UI Kit is a small and nice convenience component to work with `Carbon` objects in your Blade views. You can easily format them, auto-apply hover states, make them human readable or display them in the browser timezone of the user.
 
 ## Installation

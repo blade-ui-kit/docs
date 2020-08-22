@@ -1,7 +1,5 @@
 # Pikaday
 
-## Introduction
-
 The `pikaday` component offers an integration with [the Pikaday datepicker library](https://pikaday.com). By using it, you can simply add a datepicker to your form with one component. By leveraging [Moment.js](https://momentjs.com) you can specify different datetime formats.
 
 ## Installation
