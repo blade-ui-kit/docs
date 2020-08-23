@@ -118,3 +118,5 @@ class ColorPicker extends \BladeUIKit\Components\Forms\Inputs\ColorPicker
 }
 ```
 
+By default it makes use of the `500` color variants from [Tailwind CSS](https://tailwindcss.com/docs/customizing-colors/#default-color-palette).
+
