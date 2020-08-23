@@ -64,7 +64,13 @@
     {
         "title": "Inputs",
         "pages": [
-            "pikaday"
+            "checkbox",
+            "color-picker",
+            "email",
+            "input",
+            "password",
+            "pikaday",
+            "textarea"
         ]
     }
 ]

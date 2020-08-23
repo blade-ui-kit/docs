@@ -17,7 +17,7 @@ In its most basic form you can use the component to format a `DateTimeInterface`
 <x-carbon :date="$date" />
 ```
 
-Which will output:
+This will output the following HTML:
 
 ```html
 <span title="2 hours from now">
@@ -35,7 +35,7 @@ Of course, you may also use a specific format:
 <x-carbon :date="$date" format="d/m/Y H:i" />
 ```
 
-Which will output:
+This will output the following HTML:
 
 ```html
 <span title="2 hours from now">
@@ -51,7 +51,7 @@ The component also features a `human` boolean attribute that you can set to inve
 <x-carbon :date="$date" human />
 ```
 
-Which will output:
+This will output the following HTML:
 
 ```html
 <span title="2020-05-13 21:00:00">
@@ -67,7 +67,7 @@ And when you apply the `local` attribute it'll format the instance into the loca
 <x-carbon :date="$date" local />
 ```
 
-Which will output:
+This will output the following HTML:
 
 ```html
 <span title="2 hours from now">
@@ -87,7 +87,7 @@ Formatting for with the `local` boolean attribute works a little different. You 
 <x-carbon :date="$date" local format="DD/MM/YYYY HH:mm (z)" />
 ```
 
-Which will output:
+This will output the following HTML:
 
 ```html
 <span title="2 hours from now">
