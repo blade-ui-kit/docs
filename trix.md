@@ -27,6 +27,17 @@ This will output the following HTML:
 
 Which will render the Trix editor.
 
+### Old Values
+
+The `trix` component also supports old values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `trix` component will remember the old value:
+
+```html
+<div>
+    <input name="about" id="about" value="About me text" type="hidden">
+    <trix-editor input="about" class="trix-content"></trix-editor>
+</div>
+```
+
 ## Styling
 
 You can use the `trix-content` class to style the content. To change this class use the `styles` attribute:

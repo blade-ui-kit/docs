@@ -1,14 +1,17 @@
 # Carbon
 
-The `carbon` component in Blade UI Kit is a small and nice convenience component to work with `Carbon` objects in your Blade views. You can easily format them, auto-apply hover states, make them human readable or display them in the browser timezone of the user.
+The `carbon` component in Blade UI Kit is a small and nice convenience component to work with `DateTimeInterface` objects in your Blade views. You can easily format them, auto-apply hover states, make them human readable or display them in the browser timezone of the user.
 
 ## Installation
 
-The `carbon` component relies on [Moment.js](https://momentjs.com) & [Moment Timezone](https://momentjs.com/timezone/) for its `local` feature. Make sure to install these and compile them through your asset pipeline before deploying to production.
+While the `carbon` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
+
+- [Moment.js](https://momentjs.com)
+- [Moment Timezone](https://momentjs.com/timezone/)
 
 ## Basic Usage
 
-In its most basic form you can use the component to format a `Carbon` instance in the default `Y-m-d H:i:s` format of the component:
+In its most basic form you can use the component to format a `DateTimeInterface` instance in the default `Y-m-d H:i:s` format of the component:
 
 ```html
 <x-carbon :date="$date" />

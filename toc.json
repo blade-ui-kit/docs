@@ -19,7 +19,8 @@
                 "file": "release-notes",
                 "link": "https://github.com/blade-ui-kit/blade-ui-kit/releases"
             },
-            "upgrade-guide"
+            "upgrade-guide",
+            "contribution-guide"
         ]
     },
     {

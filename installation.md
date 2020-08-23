@@ -21,16 +21,6 @@ Then install the package by running:
 composer require blade-ui-kit/blade-ui-kit
 ```
 
-## Configuration
-
-Most of the configuration is done through the `blade-ui-kit.php` config file. *Even though by default this isn't needed*, if you'd like to adjust anything to this config file, you can publish it with the following command:
-
-```bash
-php artisan vendor:publish --tag=blade-ui-kit-config
-```
-
-When doing this, make sure to keep the config file up to date with any changes when [upgrading the library](/docs/{version}/upgrade-guide).
-
 ### Directives
 
 One of the biggest advantages of Blade UI Kit is that almost all of its components come ready out-of-the-box. To achieve this, Blade UI Kit makes use of CDN's from any 3rd party library that a component might need. To make sure these CDN's are included in your HTML, you can make use of the `@bukStyles` and `@bukScripts` directives.
@@ -46,8 +36,17 @@ If you always want these directives to be executed, even when `app.debug` is dis
 @bukScripts(true)
 ```
 
-Libraries are only loaded for components that are enabled through the `components` config option. You can learn more about disabling specific components below.
+Libraries are only loaded for components that are enabled through the `components` config option. You can learn more about [disabling specific components](#components) below.
 
+## Configuration
+
+Most of the configuration is done through the `blade-ui-kit.php` config file. *Even though by default this isn't needed*, if you'd like to adjust anything to this config file, you can publish it with the following command:
+
+```bash
+php artisan vendor:publish --tag=blade-ui-kit-config
+```
+
+When doing this, make sure to keep the config file up to date with any changes when [upgrading the library](/docs/{version}/upgrade-guide).
 ### Components
 
 Even though all components come out-of-the-box, you might just want to only load the components you need in your app for performance reasons. To do so, first [publish the config file](/docs/{version}/installation#configuration), then remove the components you don't need from the `components` settings.
