@@ -50,7 +50,7 @@ Doing so will place the markers at exactly these coordinates. You can place as m
 
 ## Passing Options
 
-You can also pass options to Mapbox with the `options` attribute. This requires you to pass a PHP array with scalar values. Below is an example where we set the minimum height:
+You can also pass options to Mapbox with the `options` attribute. This requires you to pass a PHP array with scalar values. Below is an example where we set the zoom of the map:
 
 ```html
 <x-mapbox :options="['zoom' => 8]" />

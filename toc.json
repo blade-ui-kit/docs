@@ -88,5 +88,15 @@
         "pages": [
             "mapbox"
         ]
+    },
+    {
+        "title": "Markdown",
+        "pages": [
+            "markdown",
+            {
+                "name": "ToC",
+                "file": "toc"
+            }
+        ]
     }
 ]

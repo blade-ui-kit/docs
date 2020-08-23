@@ -41,7 +41,7 @@ The `color-picker` component also supports old values that were set. For example
 
 ## Passing Options
 
-You can also pass options to Pickr with the `options` attribute. This requires you to pass a PHP array with scalar values. Below is an example where we set the minimum height:
+You can also pass options to Pickr with the `options` attribute. This requires you to pass a PHP array with scalar values. Below is an example where we allow opacity to be set:
 
 ```html
 <x-color-picker name="color" :options="['opacity' => true]" />
