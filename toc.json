@@ -72,5 +72,21 @@
             "pikaday",
             "textarea"
         ]
+    },
+    {
+        "title": "Layouts",
+        "pages": [
+            {
+                "name": "HTML",
+                "file": "html"
+            },
+            "social-meta"
+        ]
+    },
+    {
+        "title": "Maps",
+        "pages": [
+            "mapbox"
+        ]
     }
 ]

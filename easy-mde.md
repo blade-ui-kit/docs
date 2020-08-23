@@ -80,7 +80,7 @@ After overwriting the component we'll need to register it in our `blade-ui-kit.p
 return [
     'components' => [
         ...
-        'easy-mde' => \App\View\Components\EasyMDE::class,
+        'easy-mde' => App\View\Components\EasyMDE::class,
         ...
     ],
 ];
