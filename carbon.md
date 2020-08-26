@@ -6,8 +6,8 @@ The `carbon` component in Blade UI Kit is a small and nice convenience component
 
 While the `carbon` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
-- [Moment.js](https://momentjs.com)
-- [Moment Timezone](https://momentjs.com/timezone/)
+- [Moment.js](https://momentjs.com) `^2.26`
+- [Moment Timezone](https://momentjs.com/timezone/) `^0.5.31`
 
 ## Basic Usage
 

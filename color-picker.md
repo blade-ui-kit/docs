@@ -6,8 +6,8 @@ The `color-picker` component provides an easy way to integrate a color picker in
 
 While the `color-picker` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Pickr](https://github.com/Simonwep/pickr)
+- [Alpine.js](https://github.com/alpinejs/alpine) `^2.3`
+- [Pickr](https://github.com/Simonwep/pickr) `^1.0`
 
 ## Basic Usage
 

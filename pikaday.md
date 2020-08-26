@@ -6,9 +6,9 @@ The `pikaday` component offers an integration with [the Pikaday datepicker libra
 
 While the `pikaday` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Pikaday](https://github.com/Pikaday/Pikaday#installation)
-- [Moment.js](https://momentjs.com)
+- [Alpine.js](https://github.com/alpinejs/alpine) `^2.3`
+- [Pikaday](https://github.com/Pikaday/Pikaday#installation) `^1.0`
+- [Moment.js](https://momentjs.com) `^2.26`
 
 ## Basic Usage
 

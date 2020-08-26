@@ -6,7 +6,7 @@ The `trix` component allows you to easily include a rich text editor in your for
 
 While the `trix` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
-- [Trix](https://github.com/basecamp/trix)
+- [Trix](https://github.com/basecamp/trix) `^1.2`
 
 ## Basic Usage
 

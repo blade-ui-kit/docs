@@ -6,8 +6,8 @@ The `mapbox` component provides an easy way to render a [Mapbox](https://mapbox.
 
 While the `mapbox` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
+- [Alpine.js](https://github.com/alpinejs/alpine) `^2.3`
+- [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/) `^1.8`
 
 ## Basic Usage
 

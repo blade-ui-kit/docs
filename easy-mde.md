@@ -6,8 +6,8 @@ The `easy-mde` component allows you to easily include a Markdown editor in your 
 
 While the `easy-mde` component works out-of-the-box when you've [set the directives](/docs/{version}/installation#directives), we recommend that you install and compile its JavaScript libraries when you deploy to production:
 
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Easy MDE](https://github.com/Ionaru/easy-markdown-editor)
+- [Alpine.js](https://github.com/alpinejs/alpine) `^2.3`
+- [Easy MDE](https://github.com/Ionaru/easy-markdown-editor) `^2.0`
 
 ## Basic Usage
 
