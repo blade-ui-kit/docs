@@ -4,7 +4,7 @@ The `toc` component can generate a table of contents based on Markdown input. Th
 
 ## Installation
 
-The `toc` component requires you to install the following [CommonMark](https://github.com/thephpleague/commonmark) library:
+The `toc` component requires you to install the [CommonMark](https://github.com/thephpleague/commonmark) library:
 
 ```bash
 composer require league/commonmark:^1.4

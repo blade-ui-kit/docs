@@ -6,7 +6,7 @@ Nice to know is that every page in these docs are generated with this component.
 
 ## Installation
 
-The `markdown` component requires you to install the following [CommonMark](https://github.com/thephpleague/commonmark) library:
+The `markdown` component requires you to install the [CommonMark](https://github.com/thephpleague/commonmark) library:
 
 ```bash
 composer require league/commonmark:^1.4

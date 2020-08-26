@@ -108,7 +108,9 @@
     {
         "title": "Support",
         "pages": [
-            "avatar"
+            "avatar",
+            "cron",
+            "unsplash"
         ]
     }
 ]
