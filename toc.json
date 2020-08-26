@@ -98,5 +98,11 @@
                 "file": "toc"
             }
         ]
+    },
+    {
+        "title": "Navigation",
+        "pages": [
+            "dropdown"
+        ]
     }
 ]
