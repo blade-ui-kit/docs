@@ -20,7 +20,8 @@
                 "link": "https://github.com/blade-ui-kit/blade-ui-kit/releases"
             },
             "upgrade-guide",
-            "contribution-guide"
+            "contribution-guide",
+            "customization"
         ]
     },
     {
