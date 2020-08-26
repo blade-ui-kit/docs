@@ -104,5 +104,11 @@
         "pages": [
             "dropdown"
         ]
+    },
+    {
+        "title": "Support",
+        "pages": [
+            "avatar"
+        ]
     }
 ]
