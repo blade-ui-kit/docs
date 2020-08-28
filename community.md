@@ -8,7 +8,7 @@ If you're in need of help, a second pair of eyes or a chat then [join the commun
 
 ## GitHub
 
-If you'd like to contribute make sure to read our [contribution guide](/docs/{version}/contribution-guide) and afterwards head to [our GitHub repository](https://github.com/blade-ui-kit/blade-ui-kit).
+If you'd like to contribute make sure to read our [contribution guide](/docs/{{version}}/contribution-guide) and afterwards head to [our GitHub repository](https://github.com/blade-ui-kit/blade-ui-kit).
 
 ## Awesome TALL Stack
 

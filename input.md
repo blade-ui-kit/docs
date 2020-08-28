@@ -4,7 +4,7 @@ The `input` component offers an easy way to set up any type of input field for y
 
 ## Installation
 
-The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 

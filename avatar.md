@@ -4,7 +4,7 @@ The `avatar` component provides an easy way to show an avatar of a user. It make
 
 ## Installation
 
-The `avatar` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `avatar` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 

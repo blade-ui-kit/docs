@@ -4,7 +4,7 @@ The `alert` component provides an easy integration with [Laravel's session flash
 
 ## Installation
 
-The `alert` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `alert` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Displaying Alerts
 

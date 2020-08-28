@@ -4,7 +4,7 @@ The `label` component is a small and practical convenience component to use in y
 
 ## Installation
 
-The `label` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `label` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 

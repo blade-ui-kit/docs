@@ -4,7 +4,7 @@ The `textarea` component offers an easy way to set up a textarea field for your 
 
 ## Installation
 
-The `textarea` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `textarea` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 

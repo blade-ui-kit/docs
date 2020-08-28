@@ -2,7 +2,7 @@
 
 Blade UI Kit was designed to put you, the developer, in control. We often deep customization, overwriting component classes and views. This guide was put together to guide you through the process of manipulating things to your taste.
 
-**An important note before you proceed** is that if you don't really need customization but rather just want to set defaults, we recommend to use composition over publishing. [Read more about composition with Blade UI Kit here](/docs/{version}/introduction#composition).
+**An important note before you proceed** is that if you don't really need customization but rather just want to set defaults, we recommend to use composition over publishing. [Read more about composition with Blade UI Kit here](/docs/{{version}}/introduction#composition).
 
 ## Overwriting Components
 

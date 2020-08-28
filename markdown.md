@@ -113,4 +113,4 @@ This will output the following HTML:
 
 As you can see all `h` elements from levels 2 until 6 will get anchor tags. We don't generate one for the first level since there's usually only one h1 on a page's content.
 
-This feature can be used together with [the `toc` component](/docs/{version}/toc) which generates the "on this page" navigation on for these docs.
+This feature can be used together with [the `toc` component](/docs/{{version}}/toc) which generates the "on this page" navigation on for these docs.

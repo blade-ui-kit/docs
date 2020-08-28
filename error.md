@@ -4,7 +4,7 @@ The `error` component provides an easy way to work with Laravel's `$error` messa
 
 ## Installation
 
-The `error` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `error` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 

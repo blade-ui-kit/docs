@@ -4,7 +4,7 @@ The `html` component is a convenience component for a often done code snippet in
 
 ## Installation
 
-The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 

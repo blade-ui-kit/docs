@@ -67,4 +67,4 @@ This will output the following HTML:
 </ul>
 ```
 
-As you can see we generate a table of contents for level 2 & 3 headers. This component can be combined with [the `anchors` feature from the `markdown` component](/docs/{version}/markdown#anchors).
+As you can see we generate a table of contents for level 2 & 3 headers. This component can be combined with [the `anchors` feature from the `markdown` component](/docs/{{version}}/markdown#anchors).

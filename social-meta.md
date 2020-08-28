@@ -4,7 +4,7 @@ The `social-meta` component allows you to set several `og` and `meta` elements u
 
 ## Installation
 
-The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{version}/installation) and you're good to go.
+The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 
@@ -46,7 +46,7 @@ And lastly the `twitter:card` value can be adjusted through the `card` attribute
 
 ### HTML Component
 
-You probably want to combine this component with [the `html` component](/docs/{version}/html):
+You probably want to combine this component with [the `html` component](/docs/{{version}}/html):
 
 ```html
 <x-html>
