@@ -8,7 +8,7 @@ The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [inst
 
 ## Basic Usage
 
-The most basic usage of the component exists in setting its attributes:
+The most basic usage of the component requires setting three attributes, `title`, `description`, and `image`:
 
 ```html
 <x-social-meta
@@ -33,7 +33,7 @@ This will output the following HTML:
 
 As you can see several `og` and `meta` elements are set. Some are set automatically. The `og:url` will make use of the current page url unless you explicitely pass an url with the `url` attribute. The `og:locale` will make use of the app's locale. By default, `og:type` will be set at `website` but you can pass in another value if you like through the `type` attribute.
 
-And lastly the `twitter:card` value can be adjusted through the `card` attribute. If your image is a square one you'd probably want to set this to `summary` instead:
+And lastly the `twitter:card` value can be adjusted through the `card` attribute. If your image is square you'd probably want to set this to `summary` instead:
 
 ```html
 <x-social-meta

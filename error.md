@@ -14,7 +14,7 @@ Imagine we have the following validation errors:
 ['first_name' => 'Incorrect first name.']
 ```
 
-The most basic usage of the `error` component exists in using it as a self-closing component with a `field` attribute:
+The most basic usage of the `error` component is as a self-closing component with a `field` attribute:
 
 ```html
 <x-error field="email" class="text-red-500" />
@@ -32,7 +32,7 @@ As you can see it'll pick the error message from the `$error` message bag and re
 
 ## Composing The Content
 
-You can also opt to choose to composing how the rendered content look to. This allows you to make use of the components `messages()` method to render multiple validation errors at the same time.
+You can also opt to customize the structure of the rendered content. This allows you to make use of the component's `messages()` method to, for example, render multiple validation errors at the same time.
 
 Let's assume we have the following validation errors:
 

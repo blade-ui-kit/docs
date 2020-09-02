@@ -1,6 +1,6 @@
 # HTML
 
-The `html` component is a convenience component for a often done code snippet in your web app: the `<html>` element with the `<head>` & `<body>` elements. Set your page title, scripts and styles with easy without having to remember what the syntax was again.
+The `html` component is a convenience component to replace a common code snippet in your web app: the `<html>` element with the `<head>` & `<body>` elements. Set your page title, scripts and styles with easy without having to remember the syntax.
 
 ## Installation
 
@@ -8,7 +8,7 @@ The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [inst
 
 ## Basic Usage
 
-The most basic usage of the component exists in setting its slotted content:
+The most basic usage of the component is to set its slotted content:
 
 ```html
 <x-html class="font-sans">
@@ -35,11 +35,11 @@ This will output the following HTML:
 </html>
 ```
 
-As you can see you can get rid of all the redundant boilerplate. The component behaves simarly to the stub from the auth scaffolding from Laravel. The `lang` attribute on the `html` element is determined by the app's locale. The CSRF token is set so libraries like [Laravel Echo](https://github.com/laravel/echo) can make use of it. And the page title is set based on the `app.name` config setting. All attributes that are set on the component are piped through onto the `<body>` element.
+As you can see you can get rid of all the redundant boilerplate. The component behaves simarly to the stub from Laravel's auth scaffolding. The `lang` attribute on the `html` element is determined by the app's locale. The CSRF token is set so libraries like [Laravel Echo](https://github.com/laravel/echo) can make use of it. And the page title is set based on the `app.name` config setting. All attributes that are set on the component are piped through onto the `<body>` element.
 
 ## Page Title
 
-You can of set a custom title if you like:
+You can set a custom title if you like:
 
 ```html
 <x-html title="My App">
@@ -74,7 +74,7 @@ Something I like to do myself often is make use of a delimiter between the page 
 </x-html>
 ```
 
-If `$title` would have the value of `My Page` then this will generate a title like:
+If `$title` has the value of `My Page`, the full generated title will be:
 
 ```html
 <title>My Page - Blade UI Kit</title>
@@ -115,4 +115,4 @@ This will output the following HTML:
 </html>
 ```
 
-This is convenient for setting scripts and styles as well as any other customization you'd like to do.
+This is convenient for setting scripts and styles, and adding any other customization you'd like.

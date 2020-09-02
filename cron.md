@@ -1,6 +1,6 @@
 # Cron
 
-The `cron` component is a nice little convenience component that provides a way to make cron expressions human readable. I makes use of the [CRON Translator](https://github.com/lorisleiva/cron-translator) behind the hood.
+The `cron` component is a nice little convenience component that provides a way to make cron expressions human readable. It makes use of the [CRON Translator](https://github.com/lorisleiva/cron-translator) behind the hood.
 
 ## Installation
 
@@ -44,4 +44,4 @@ This will output the following HTML:
 </span>
 ```
 
-As you can see we display the human readable value and show the cron expression when you hover over it.
+As you can see, we display the human readable value and show the cron expression when you hover over it.

@@ -10,7 +10,7 @@ The `form-button` component comes ready out-of-the-box with Blade UI Kit. Simply
 
 ## Basic Usage
 
-The most basic usage of the component is defining an action is by setting an action and button text:
+The most basic usage of the component is by setting an action, and supplying button text:
 
 ```html
 <x-form-button :action="route('logout')" class="p-4 bg-blue-500">

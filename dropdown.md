@@ -42,4 +42,4 @@ This will output the following HTML:
 
 As you can see, the Alpine.js toggles are applied the surrounding `div` elements. This saves you from having to re-apply these attributes all the time. 
 
-One nice use case for this are [the navbars from Tailwind UI](https://tailwindui.com/components/application-ui/navigation/navbars).
+One nice use case for this is [the navbars from Tailwind UI](https://tailwindui.com/components/application-ui/navigation/navbars).

@@ -1,10 +1,10 @@
 # Community
 
-Get involved into the Blade UI Kit community.
+Get involved in the Blade UI Kit community.
 
 ## Discord
 
-If you're in need of help, a second pair of eyes or a chat then [join the community on our Discord Server](https://discord.gg/Vev5CyE).
+If you're in need of help, a second pair of eyes, or a chat then [join the community on our Discord Server](https://discord.gg/Vev5CyE).
 
 ## GitHub
 

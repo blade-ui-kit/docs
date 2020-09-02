@@ -1,6 +1,6 @@
 # Logout
 
-The `logout` component is a small convenience component which fills in a place for a widely used concept in an app, the logout link. Often this action sits in a menu item with other hyperlinks. But a logout is meant as an actionable link rather than a `GET` request. Therefor a `POST` request is better suited. And thus it deserves its own component.
+The `logout` component is a small convenience component for a widely used concept in an app, the logout link. Often this action sits in a menu item with other hyperlinks. But a logout is meant as an actionable link rather than a `GET` request. Therefor a `POST` request is better suited. And thus it deserves its own component.
 
 ## Installation
 
@@ -8,7 +8,7 @@ The `logout` component comes ready out-of-the-box with Blade UI Kit. Simply [ins
 
 ## Basic Usage
 
-The most basic usage of the component is defining an action is by referencing it as a self-closed tag:
+The most basic usage of the component is as a self-closed tag:
 
 ```html
 <x-logout class="text-gray-500" />
@@ -58,4 +58,4 @@ This will output the following HTML:
 </form>
 ```
 
-> Note that when using the slot, the `__()` translation helper isn't applied anymore. This is to give you full control over the slotted content. For example, if you'd like to also set an icon or such.
+> Note that when using the slot, the `__()` translation helper isn't applied anymore. This gives you full control over the slotted content should you want to for example, incorporate an icon.

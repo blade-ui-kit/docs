@@ -8,13 +8,13 @@ The `alert` component comes ready out-of-the-box with Blade UI Kit. Simply [inst
 
 ## Displaying Alerts
 
-The most basic usage of the `alert` component exists in flashing a message to the `alert` key:
+The most basic usage of the `alert` component is to first flash a message to the `alert` key:
 
 ```php
 session()->flash('alert', 'Settings saved successfully.');
 ```
 
-And then displaying it in your Blade view:
+And then, use the component to display it in your Blade view:
 
 ```html
 <x-alert class="bg-green-700 text-green-100 p-4" />
@@ -46,7 +46,7 @@ Reference the different types using the `type` attribute on the `alert` componen
 <x-alert type="danger" class="bg-red-700 text-red-100 p-4" />
 ```
 
-These will then render both of the flashed messages.
+These will then render all of the flashed messages.
 
 ## Composing The Content
 

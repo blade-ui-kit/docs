@@ -8,7 +8,7 @@ The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [inst
 
 ## Basic Usage
 
-The most basic usage of the component exists in setting a `name` attribute:
+The most basic usage of the component is to set its `name` attribute:
 
 ```html
 <x-input name="search" />
@@ -36,7 +36,7 @@ This will output the following HTML:
 
 ### Old Values
 
-The `input` component also supports old values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `input` component will remember the old value:
+The `input` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `input` component will remember the old value:
 
 ```html
 <input name="search" type="text" id="search" value="Eloquent" />
