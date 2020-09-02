@@ -2,8 +2,6 @@
 
 ## Requirements
 
-Blade UI Kit has the following requirements:
-
 - PHP 7.3 or higher
 - Laravel 7.0 or higher
 
