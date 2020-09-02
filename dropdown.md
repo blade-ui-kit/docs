@@ -21,7 +21,7 @@ In its most basic usage, you use it by defining some links and a trigger button:
     <a href="#">Profile</a>
     <a href="#">Settings</a>
     <a href="#">Logout</a>
-</x-html>
+</x-dropdown>
 ```
 
 This will output the following HTML:
