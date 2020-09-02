@@ -4,7 +4,7 @@ Blade UI Kit is a set of renderless components to utilise in your Laravel Blade 
 
 It was made for [Blade](https://laravel.com/docs/blade), Laravel's powerful templating engine. Every Blade UI Kit component is a Blade component with a view and a class. Each component can be [extended, modified and overwritten](/docs/{{version}}/customization).
 
-The components are renderless, meaning they ship without any styling applied to them. This puts you in full control of how their look and feel. 
+The components are renderless, meaning they ship without any styling applied to them. This puts you in full control of how they look and feel. 
 
 To give you a practical introduction example, let's look at the way how Blade UI Kit's [`alert` component](/docs/{{version}}/alert) replaces [Laravel's default alert snippet from its UI scaffolding](https://github.com/laravel/ui/blob/fb1404f04ece6eee128e3fb750d3a1e064238b33/src/Auth/bootstrap-stubs/home.stub#L11-L15):
 
