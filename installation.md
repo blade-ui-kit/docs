@@ -52,7 +52,7 @@ When doing this, make sure to keep the config file up to date with any changes w
 
 ### Components
 
-Even though all components come enabledout-of-the-box, you might just want to only load the components you need in your app for performance reasons. To do so, first [publish the config file](/docs/{{version}}/installation#configuration), then remove the components you don't need from the `components` settings.
+Even though all components come enabled out-of-the-box, you might just want to only load the components you need in your app for performance reasons. To do so, first [publish the config file](/docs/{{version}}/installation#configuration), then remove the components you don't need from the `components` settings.
 
 You can also choose to use different names for components. Simply adjust the name for a component and reference them with a new name. For example, let's rename the `easy-mde` component to `markdown-editor`:
 
