@@ -22,9 +22,9 @@ This is turned into this:
 <x-alert class="alert alert-success"/>
 ```
 
-As you can see, all the implementation details about the behavior of the component are hidden away. Making it up to you do decided how to style it.
+As you can see, all the implementation details about the behavior of the component are hidden away. Making it up to you to decide how to style it.
 
-All of Blade UI Kit's components were designed with this in mind. Letting you worry less about implementation details and allowing you to focus on what truly matters: *building your app*. All the while providing a great developer experience.
+All of Blade UI Kit's components were designed with this in mind. Letting you worry less about implementation details and allowing you to focus on what truly matters: *building your app*. All while providing a great developer experience.
 
 To give you a more proper demonstration of the library, we've built [an example Laravel project](https://github.com/blade-ui-kit/blade-ui-kit-example) that makes use of some of the components from Blade UI Kit.
 
