@@ -54,3 +54,7 @@ This isn't available in Laravel 7 unfortunately as this was a breaking change ba
     :class="($class ?? '') . ' p-4 bg-white text-gray-700'"
 />
 ```
+
+## Blade Icons
+
+If you're interested in an easy solution for handling SVG icons in your Laravel Blade views we can help you with that. We've built [Blade Icons](https://github.com/blade-ui-kit/blade-icons), a package to reference SVG icons like Blade components, Blade directives or with a helper function. You can also make use of [our search on our website](https://blade-ui-kit.com/blade-icons) to find the icon your need amongst thousands of available icons.
