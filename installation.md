@@ -27,7 +27,9 @@ One of the biggest advantages of Blade UI Kit is that almost all of its componen
 
 Place the `@bukStyles` directive right before your closing `</head>` tag and **after** scripts from libraries like Livewire. Place the `@bukScripts` directive right before your closing `</body>` tag and **after** scripts from libraries like Livewire.
 
-Even though these directives allow you to get up and running with the components quickly, we recommend that you compile the 3rd party JavasScript libraries that each component needs through an asset pipeline (like [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)). By default, when your `app.debug` config option is disabled, the directives are also disabled for performance reasons. 
+### Production
+
+Even though these directives allow you to get up and running with the components quickly, **we recommend that you compile the 3rd party libraries that each component needs through an asset pipeline** (like [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)). By default, when your `app.debug` config option is disabled, the directives are also disabled for performance reasons. 
 
 If you always want these directives to be executed, even when `app.debug` is disabled, you can force them to load the CDN links by passing a `true` boolean:
 
