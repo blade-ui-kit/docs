@@ -4,7 +4,7 @@ The `social-meta` component allows you to set several `og` and `meta` elements u
 
 ## Installation
 
-The `input` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
+The `social-meta` component comes ready out-of-the-box with Blade UI Kit. Simply [install the package](/docs/{{version}}/installation) and you're good to go.
 
 ## Basic Usage
 
