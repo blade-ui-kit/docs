@@ -9,6 +9,21 @@ While the `mapbox` component works out-of-the-box when you've [set the directive
 - [Alpine.js](https://github.com/alpinejs/alpine) `^2.3`
 - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/) `^1.8`
 
+Don't forget to set your public token in your ```config/services.php``` file:
+
+```php
+<?php
+
+return [
+    ...
+   
+    'mapbox' => [
+        'public_token' => '<your token here>',
+    ],
+    
+    ...
+```
+
 ## Basic Usage
 
 In its most basic usage, you use it as a self closing component:
