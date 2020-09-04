@@ -23,7 +23,7 @@ composer require blade-ui-kit/blade-ui-kit
 
 One of the biggest advantages of Blade UI Kit is that almost all of its components come ready out-of-the-box. To achieve this, Blade UI Kit makes use of CDN's from any 3rd party library that a component might need. To make sure these CDN's are included in your HTML, you can make use of the `@bukStyles` and `@bukScripts` directives.
 
-Place the `@bukStyles` directive right before your closing `</head>` tag and **after** scripts from libraries like Livewire. Place the `@bukScripts` directive right before your closing `</body>` tag and **after** scripts from libraries like Livewire.
+Place the `@bukStyles` directive right before your closing `</head>` tag and **after** styles from libraries like Livewire. Place the `@bukScripts` directive right before your closing `</body>` tag and **after** scripts from libraries like Livewire.
 
 ### Production
 
