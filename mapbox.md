@@ -9,6 +9,21 @@ While the `mapbox` component works out-of-the-box when you've [set the directive
 - [Alpine.js](https://github.com/alpinejs/alpine) `^2.3`
 - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/) `^1.8`
 
+You have to set your .env file with this settings :
+```
+MAPBOX_PUBLIC_TOKEN="yourToken"
+```
+Replace 'yourToken' by token provided by default on https://account.mapbox.com/ or create new one for your app.
+
+Next, you have to add this to your config\services.php:
+
+```php
+    'mapbox' => [
+        'public_token' => env('MAPBOX_PUBLIC_TOKEN'),
+    ]
+```
+
+
 ## Basic Usage
 
 In its most basic usage, you use it as a self closing component:
@@ -35,6 +50,14 @@ When rendering multiple maps on a single page it's important to set different ID
 ```
 
 Doing so will make sure the JavaScript library can render them properly.
+
+## Center on a specific point
+
+When you want center your map on a specific point, you have to use **options** parameter like below:
+
+```html
+<x-mapbox theme="light-v10" class="rounded-lg shadow-lg h-96 mt-6" :options="['center' => [6.9167, 43.6667], 'zoom' => 7 ]" />
+```
 
 ## Using Markers
 
