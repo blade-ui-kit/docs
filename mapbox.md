@@ -19,6 +19,12 @@ To set up the API access token for Mapbox. you will need to add a configuration 
 ],
 ```
 
+Get your Mapbox access key from the [dashboard](https://account.mapbox.com/) after creating an app with them. Then set it in your .env file:
+
+```
+MAPBOX_PUBLIC_TOKEN=<your access key>
+```
+
 ## Basic Usage
 
 In its most basic usage, you use it as a self closing component:
