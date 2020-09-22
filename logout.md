@@ -21,7 +21,7 @@ This will output the following HTML:
     <input type="hidden" name="_token" value="...">
 
     <button type="submit" class="text-gray-500">
-        Logout
+        Log out
     </button>
 </form>
 ```
