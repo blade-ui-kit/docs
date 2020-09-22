@@ -55,7 +55,7 @@ This will output the following HTML:
     <input type="hidden" name="_method" value="DELETE">
 
     <button type="submit" class="p-4 bg-red-500">
-        Delete Item
+        Delete Post
     </button>
 </form>
 ```
