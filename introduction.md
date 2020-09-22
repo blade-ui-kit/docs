@@ -35,12 +35,14 @@ Blade UI Kit was designed with composition in mind. Meaning that we encourage to
 Take our [form `input` component](/docs/{{version}}/input) for example. You probably want to apply some default styling to it so it can be re-used throughout your app. Let's style it by making use of [Tailwind CSS](https://tailwindcss.com). We're gonna create an anonymous Blade component called `input` which resides in a `resources/views/components/forms` directory:
 
 ```html
-<x-input {{ $attributes->merge(['class' => 'p-4 text-gray-700']) }} />
+<x-input :name="$name" {{ $attributes->merge(['class' => 'p-4 text-gray-700']) }} />
 ```
 
 As you can see we're referencing Blade UI Kit's component inside your own `forms.input` component. By doing so we retain all the power of the Blade UI Kit component while making sure the component has the look and feel which is right for your app.
 
 Of course, sometimes when wrapping components in similar named components, naming collisions may occur. Luckily we provide a way to [prefix our components](/docs/{{version}}/installation#prefixing) to prevent that from happening.
+
+> Note: required attributes should be piped through to the base component. All other attributes can be piped through by using `{{ $attributes }}`.
 
 ### Piping Attributes
 
