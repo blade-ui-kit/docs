@@ -15,7 +15,7 @@ return [
 ];
 ```
 
-Get your Unsplash access key from [the develop dashboard](https://unsplash.com/developers) after creating an app with them. Then set it in your `.env` file:
+Get your Unsplash access key from the [developer dashboard](https://unsplash.com/developers) after creating an app with them. Then set it in your `.env` file:
 
 ```
 UNSPLASH_ACCESS_KEY=<your access key>
