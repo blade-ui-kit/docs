@@ -17,7 +17,7 @@ Imagine we have the following validation errors:
 The most basic usage of the `error` component exists in using it as a self-closing component with a `field` attribute:
 
 ```html
-<x-error field="email" class="text-red-500" />
+<x-error field="first_name" class="text-red-500" />
 ```
 
 This will output the following HTML:
