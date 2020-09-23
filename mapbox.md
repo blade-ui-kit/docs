@@ -9,6 +9,20 @@ While the `mapbox` component works out-of-the-box when you've [set the directive
 - [Alpine.js](https://github.com/alpinejs/alpine) `^2.3`
 - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/) `^1.8`
 
+To set up the API access token for Mapbox you will need to add a config option to your `config/services.php` file:
+
+```php
+'mapbox' => [
+    'public_token' => env('MAPBOX_PUBLIC_TOKEN'),
+],
+```
+
+Get your Mapbox access key from the [dashboard](https://account.mapbox.com) after creating an app with them. Then set it in your .env file:
+
+```
+MAPBOX_PUBLIC_TOKEN=<your access key>
+```
+
 ## Basic Usage
 
 In its most basic usage, you use it as a self closing component:
