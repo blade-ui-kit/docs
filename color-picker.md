@@ -11,7 +11,7 @@ While the `color-picker` component works out-of-the-box when you've [set the dir
 
 ## Basic Usage
 
-The most basic usage of the component exists in setting a `name` attribute:
+The most basic usage of the component is to set a `name` attribute:
 
 ```html
 <x-color-picker name="color" />
@@ -30,7 +30,7 @@ The `<div id="color"></div>` is used by Pickr to render the color picker. What's
 
 ### Old Values
 
-The `color-picker` component also supports old values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `color-picker` component will remember the old value:
+The `color-picker` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `color-picker` component will remember the old value:
 
 ```html
 <div title="#FF0000">

@@ -10,7 +10,7 @@ The `form` component comes ready out-of-the-box with Blade UI Kit. Simply [insta
 
 ## Basic Usage
 
-The most basic usage of the `form` component exists in encapsulating some form elements and setting an `action` attribute:
+The most basic usage of the `form` component is wrapping some form elements and setting an `action` attribute:
 
 ```html
 <x-form action="http://example.com">

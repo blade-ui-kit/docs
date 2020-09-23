@@ -23,7 +23,7 @@ UNSPLASH_ACCESS_KEY=<your access key>
 
 ## Basic Usage
 
-The most basic usage of the `unsplash` component exists in referencing a photo by its ID through a `photo` attribute: 
+The most basic usage of the `unsplash` component is to reference a photo by its ID through a `photo` attribute: 
 
 ```html
 <x-unsplash photo="t9Td0zfDTwI" />
@@ -35,11 +35,11 @@ This will output the following HTML:
 <img src="https://images.unsplash.com/photo/..." />
 ```
 
-As you can see the identifier has been converted to an unsplash url. We've used the Unsplash API to retrieve it. 
+As you can see the identifier has been converted to an Unsplash URL, which is retrieved via API by this component.
 
 ## Caching
 
-You might think making API requests to Unsplash is pretty expensive every time the UI is reloaded and it definitely is. That's why the request will stay cached for a default of one hour. Obviously you'll need to [enable a cache driver](https://laravel.com/docs/cache) for this.
+You might think making API requests to Unsplash is pretty expensive every time the UI is reloaded (and it definitely is). That's why the request will stay cached for a default of one hour. Obviously you'll need to [enable a cache driver](https://laravel.com/docs/cache) for this.
 
 To manipulate the TTL (time to live) for this cache, you can pass a `ttl` attribute to the component:
 
@@ -47,7 +47,7 @@ To manipulate the TTL (time to live) for this cache, you can pass a `ttl` attrib
 <x-unsplash photo="t9Td0zfDTwI" ttl="86400" />
 ```
 
-And that'll make the image cached for an entire day.
+In this example the image would be image cached for an entire day (86400 seconds).
 
 ## Randomize
 

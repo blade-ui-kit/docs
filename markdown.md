@@ -1,8 +1,8 @@
 # Markdown
 
-The `markdown` component does exactly what you expect it to do. It'll generate any markdown you pass into HTML. Furthermore it can handle Github Flavored Markdown and generate anchor tags for titles. 
+The `markdown` component does exactly what you expect it to do. It'll generate any markdown you pass into HTML. Furthermore, it can handle Github Flavored Markdown and generate anchor tags for titles. 
 
-Nice to know is that every page in these docs are generated with this component.
+> FYI: every page in these docs is generated with this component.
 
 ## Installation
 
@@ -60,7 +60,7 @@ This will output the following HTML:
 
 ## Passing Options
 
-You can also pass options to Commonmark with the `options` attribute. This requires you to pass a PHP array with scalar values. Below is an example where we set disable underscores:
+You can also pass options to Commonmark with the `options` attribute. This requires you to pass a PHP array with scalar values. Below is an example where we disable underscores:
 
 ```html
 <x-markdown

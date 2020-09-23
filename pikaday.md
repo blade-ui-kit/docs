@@ -33,7 +33,7 @@ As you can see, the component sets a couple of nice defaults for your component.
 
 ### Old Values
 
-The `pikaday` component also supports old values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `pikaday` component will remember the old value:
+The `pikaday` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `pikaday` component will remember the old value:
 
 ```html
 <input
@@ -99,7 +99,7 @@ class Pikaday extends \BladeUIKit\Components\Forms\Pikaday
 }
 ```
 
-It's important in the above snippet that you call `parent::options()` so any options passed directly to the component are still applied as well. 
+It's important in the above snippet that you call `parent::options()`, so that any options passed directly to the component are still applied as well. 
 
 After overwriting the component we'll need to register it in our `blade-ui-kit.php` config file. Make sure to replace the default one with your own class:
 

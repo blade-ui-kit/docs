@@ -23,11 +23,11 @@ This will output the following HTML *(inline JS has been omitted)*:
 <textarea name="about" id="about"></textarea>
 ```
 
-Which will render the Easy MDE editor.
+From there, the Easy MDE editor will be rendered.
 
 ### Old Values
 
-The `easy-mde` component also supports old values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `easy-mde` component will remember the old value:
+The `easy-mde` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `easy-mde` component will remember the old value:
 
 ```html
 <textarea name="about" id="about">

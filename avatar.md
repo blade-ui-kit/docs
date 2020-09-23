@@ -8,7 +8,7 @@ The `avatar` component comes ready out-of-the-box with Blade UI Kit. Simply [ins
 
 ## Basic Usage
 
-The most basic usage of the `avatar` component exists in using it as a self-closing component. Search for an identifier like a username, email or domain:
+The most basic usage of the `avatar` component is as a self-closing component. Search for an identifier like a username, email or domain:
 
 ```html
 <x-avatar search="johndoe" />
@@ -40,7 +40,7 @@ And this will force unavatar to search only Gravatar images.
 
 ## Fallbacks
 
-If you'd like to provide a fallback image when not matches were found for a given search result you can use the `fallback` attribute:
+If you'd like to provide a fallback image when no matche is found for a given search result, you can use the `fallback` attribute:
 
 ```html
 <x-avatar search="johndoe" fallback="https://example.com/image.png" />
@@ -54,7 +54,7 @@ This will output the following HTML:
 
 ## User Uploaded Images
 
-The `avatar` component also allows you to pass a user uploaded image through the `src` attribute that will take precedence over the search query:
+The `avatar` component also allows you to pass a user-uploaded image through the `src` attribute that will take precedence over the search query:
 
 ```html
 <x-avatar search="johndoe" src="https://example.com/image.png" />

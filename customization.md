@@ -14,11 +14,11 @@ php artisan buk:publish color-picker
 
 Or use the `--class` & `--view` flags as described below.
 
-In general it's important to note that if you take this approach you need to **be sensible about the things you adjust**. You can't simple rename properties and methods and expect everything to still work. Write tests for your new components and don't wander too far from the defaults. **We also don't offer any guarantee that things will keep working in future (major) versions.**
+In general it's important to note that if you take this approach you need to **be sensible about the things you adjust**. You can't simply rename properties and methods and expect everything to still work. Write tests for your new components and don't wander too far from the defaults. **We also don't offer any guarantee that things will keep working in future (major) versions.**
 
 ### Overwriting Classes
 
-You can customize component's by overwriting their classes. To start off with publishing a component's class you can use the `buk:publish` command and the `--class` flag:
+You can customize components by overwriting their classes. To start off with publishing a component's class you can use the `buk:publish` command and the `--class` flag:
 
 ```bash
 php artisan buk:publish color-picker --class
@@ -46,4 +46,4 @@ Of course, if customizing isn't your thing, or even using the library as a depen
 
 Also some credit if you copy code somewhere (prefereable in the readme of the repository) is always appreciated.
 
-And advantage to this approach is that you're less prone to breakages from the library itself with newer versions coming out but you'll lose the nicety of getting bug fixes and new features.
+An advantage to this approach is that you're less prone to breakages from the library itself with newer versions coming out, but you'll lose the nicety of getting bug fixes and new features.

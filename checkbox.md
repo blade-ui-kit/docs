@@ -8,7 +8,7 @@ The `checkbox` component comes ready out-of-the-box with Blade UI Kit. Simply [i
 
 ## Basic Usage
 
-The most basic usage of the component exists in setting a `name` attribute:
+The most basic usage of the component is to set the `name` attribute:
 
 ```html
 <x-checkbox name="remember_me"/>
@@ -22,7 +22,7 @@ This will output the following HTML:
 
 ### Old Values
 
-The `checkbox` component also supports checked values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `checkbox` component will remember the checked value:
+The `checkbox` component also supports checked values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `checkbox` component will remember the checked value:
 
 ```html
 <input name="remember_me" type="checkbox" id="remember_me" checked />

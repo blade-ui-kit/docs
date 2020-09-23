@@ -29,7 +29,7 @@ Which will render the Trix editor.
 
 ### Old Values
 
-The `trix` component also supports old values that were set. For example, you might want to apply some validation in the backend and make sure the user doesn't loses their input data when you show them the form anew with the validation errors. When re-rendering the form, the `trix` component will remember the old value:
+The `trix` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `trix` component will remember the old value:
 
 ```html
 <div>
@@ -72,4 +72,4 @@ This will output the following HTML:
 </div>
 ```
 
-The reason for this is that the Trix editor places its own classes etc on the editor itself so any attributes you place on it will get stripped.
+The reason for this is that the Trix editor places its own classes, etc., on the editor itself so any attributes you place on it will get stripped out.

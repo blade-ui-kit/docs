@@ -12,7 +12,7 @@ composer require league/commonmark:^1.4
 
 ## Basic Usage
 
-In its most basic usage, you use it to render some an unordered list:
+In its most basic usage, you use it to render an unordered list:
 
 ```html
 <x-toc>

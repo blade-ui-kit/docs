@@ -8,7 +8,7 @@ The `password` component comes ready out-of-the-box with Blade UI Kit. Simply [i
 
 ## Basic Usage
 
-The most basic usage of the component exists in referencing it:
+The most basic usage of the component is as a self-closing component:
 
 ```html
 <x-password />

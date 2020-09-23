@@ -8,7 +8,7 @@ The `label` component comes ready out-of-the-box with Blade UI Kit. Simply [inst
 
 ## Basic Usage
 
-The most basic usage of the `label` component exists in using it as a self-closing component:
+The most basic usage of the `label` component is as a self-closing component:
 
 ```html
 <x-label for="first_name" />

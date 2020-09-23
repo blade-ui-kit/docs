@@ -1,6 +1,6 @@
 # Community
 
-Get involved into the Blade UI Kit community.
+Get involved in the Blade UI Kit community.
 
 ## Twitter
 
@@ -8,7 +8,7 @@ If want to stay up to date with the latest news, updates, releases and anything 
 
 ## Discord
 
-If you're in need of help, a second pair of eyes or a chat then [join the community on our Discord Server](https://discord.gg/Vev5CyE).
+If you're in need of help, a second pair of eyes, or a chat then [join the community on our Discord Server](https://discord.gg/Vev5CyE).
 
 ## GitHub
 

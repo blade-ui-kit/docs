@@ -21,7 +21,7 @@ composer require blade-ui-kit/blade-ui-kit
 
 ### Directives
 
-One of the biggest advantages of Blade UI Kit is that almost all of its components come ready out-of-the-box. To achieve this, Blade UI Kit makes use of CDN's from any 3rd party library that a component might need. To make sure these CDN's are included in your HTML, you can make use of the `@bukStyles` and `@bukScripts` directives.
+One of the biggest advantages of Blade UI Kit is that almost all of its components come ready out-of-the-box. To achieve this, Blade UI Kit makes use of CDNs from any 3rd party library that a component might need. To make sure these CDNs are included in your HTML, you can make use of the `@bukStyles` and `@bukScripts` directives.
 
 Place the `@bukStyles` directive right before your closing `</head>` tag and **after** styles from libraries like Livewire. Place the `@bukScripts` directive right before your closing `</body>` tag and **after** scripts from libraries like Livewire.
 
@@ -50,9 +50,9 @@ When doing this, make sure to keep the config file up to date with any changes w
 
 ### Components
 
-Even though all components come enabled out-of-the-box, you might just want to only load the components you need in your app for performance reasons. To do so, first [publish the config file](/docs/{{version}}/installation#configuration), then remove the components you don't need from the `components` settings.
+Even though all components come enabled out-of-the-box, you may want to load only the components you need in your app for performance reasons. To do so, first [publish the config file](/docs/{{version}}/installation#configuration), then remove the components you don't need from the `components` settings.
 
-You can also choose to use different names for components. Simply adjust the name for a component and reference them with a new name. For example, let's rename the `easy-mde` component to `markdown-editor`:
+You can also choose to use different names for components. Simply adjust the name for a component and reference it with a new name. For example, let's rename the `easy-mde` component to `markdown-editor`:
 
 ```php
 <?php
@@ -74,7 +74,7 @@ Now, you can reference it in your Blade views as:
 
 ### Prefixing
 
-Using components from this library might conflict with other ones from different libraries or components from your own app. To prevent this you can opt to prefixing Blade UI Kit components by default to prevent these collisions. You can do this by setting the `prefix` option in the config file:
+Components from this library might conflict with other ones from different libraries, or components from your own app. To prevent this, you can opt to add a prefix to the Blade UI Kit components. You can do this by setting the `prefix` option in the config file:
 
 ```php
 <?php
@@ -86,7 +86,7 @@ return [
 ];
 ```
 
-Now all components can be referenced as usual but with the prefix before their name:
+Now all components can be referenced as usual, but with the prefix before their name:
 
 ```html
 <x-buk-easy-mde name="about" />
