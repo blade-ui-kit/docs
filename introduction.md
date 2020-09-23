@@ -42,7 +42,7 @@ As you can see we're referencing Blade UI Kit's component inside your own `forms
 
 Of course, sometimes when wrapping components in similar named components, naming collisions may occur. Luckily we provide a way to [prefix our components](/docs/{{version}}/installation#prefixing) to prevent that from happening.
 
-> Note: required attributes should be piped through to the base component. All other attributes can be piped through by using `{{ $attributes }}`.
+> Note: required class arguments should be piped through to the base component. All other attributes can be piped through by using `{{ $attributes }}`.
 
 ### Piping Attributes
 
