@@ -16,7 +16,7 @@ If you'd like to contribute make sure to read our [contribution guide](/docs/{{v
 
 ## Awesome TALL Stack
 
-Blade UI Kit was designed to integrate nicely into the TALL Stack. If you're looking for resources on the TALL Stack we offer an [Awesome TALL Stack](https://github.com/blade-ui-kit/awesome-tall-stack) repo.
+Blade UI Kit was designed to integrate nicely into [the TALL Stack](https://tallstack.dev). If you're looking for resources on the TALL Stack we offer an [Awesome TALL Stack](https://github.com/blade-ui-kit/awesome-tall-stack) repo.
 
 ## Code of Conduct
 
