@@ -40,7 +40,7 @@ And this will force unavatar to search only Gravatar images.
 
 ## Fallbacks
 
-If you'd like to provide a fallback image when no matche is found for a given search result, you can use the `fallback` attribute:
+If you'd like to provide a fallback image when no match is found for a given search result, you can use the `fallback` attribute:
 
 ```html
 <x-avatar search="johndoe" fallback="https://example.com/image.png" />
