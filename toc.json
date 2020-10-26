@@ -6,6 +6,10 @@
                 "icon": "heroicon-o-book-open"
             },
             {
+                "file": "tooling",
+                "icon": "heroicon-o-puzzle"
+            },
+            {
                 "file": "community",
                 "icon": "heroicon-o-chat-alt-2"
             }
