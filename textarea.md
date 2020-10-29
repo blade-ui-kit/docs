@@ -36,7 +36,7 @@ This will output the following HTML:
 
 ### Old Values
 
-The `textarea` component also supports old values that were set.For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `textarea` component will remember the old value:
+The `textarea` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `textarea` component will remember the old value:
 
 ```html
 <textarea name="about" id="about" rows="3">About me text</textarea>
