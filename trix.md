@@ -25,7 +25,20 @@ This will output the following HTML:
 </div>
 ```
 
-Which will render the Trix editor.
+Which will render the Trix editor. Of course, you can also specifically set a default value:
+
+```html
+<x-trix name="about">My about text</x-trix>
+```
+
+This will output the following HTML:
+
+```html
+<div>
+    <input name="about" id="about" value="My about text" type="hidden">
+    <trix-editor input="about" class="trix-content"></trix-editor>
+</div>
+```
 
 ### Old Values
 
