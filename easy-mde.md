@@ -23,7 +23,17 @@ This will output the following HTML *(inline JS has been omitted)*:
 <textarea name="about" id="about"></textarea>
 ```
 
-From there, the Easy MDE editor will be rendered.
+From there, the Easy MDE editor will be rendered. Of course, you can also specifically set a default value:
+
+```html
+<x-easy-mde name="about">My about text</x-easy-mde>
+```
+
+This will output the following HTML *(inline JS has been omitted)*:
+
+```html
+<textarea name="about" id="about">My about text</textarea>
+```
 
 ### Old Values
 
