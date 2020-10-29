@@ -25,7 +25,7 @@ By default a `rows` attribute will be set for the textarea field as well as an `
 Of course, you can also specifically set a `rows` attribute, overwrite the `id` attribute and specifically set a default value:
 
 ```html
-<x-textarea name="about">My about text</textarea>
+<x-textarea name="about">My about text</x-textarea>
 ```
 
 This will output the following HTML:
