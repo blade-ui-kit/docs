@@ -53,10 +53,10 @@ The `trix` component also supports old values that were set. For example, you mi
 
 ## Styling
 
-You can use the `trix-content` class to style the content. To change this class use the `styles` attribute:
+You can use the `trix-content` class to style the content. To change this class use the `styling` attribute:
 
 ```html
-<x-trix name="about" styles="trix-styles" />
+<x-trix name="about" styling="trix-styles" />
 ```
 
 This will output the following HTML:
