@@ -71,10 +71,10 @@ Consider contributing to https://github.com/lorisleiva/cron-translator to add mo
 
 ## 24-Hour Time Format
 
-To display time in the 24-hour format, the cron component acccepts a `use24hour` attribute:
+To display time in the 24-hour format, the cron component acccepts a `use24hour` boolean attribute:
 
 ```html
-<x-cron schedule="@weekly" locale="fr" use24hour="true" human />
+<x-cron schedule="@weekly" locale="fr" use24hour human />
 ```
 
 This will output the following HTML:
