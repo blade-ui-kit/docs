@@ -45,3 +45,42 @@ This will output the following HTML:
 ```
 
 As you can see, we display the human readable value and show the cron expression when you hover over it.
+
+## Localization
+
+By default, the cron component will translate your expression to English. Use the `locale` attribute to select another destination language:
+
+```html
+<x-cron schedule="@weekly" locale="lv" human />
+```
+
+This will output the following HTML:
+
+```html
+<span title="@weekly">
+    Katru svētdienu plkst. 12:00am
+</span>
+```
+
+Currently, the following locales are supported:
+
+- `fr`
+- `lv`
+
+Consider contributing to https://github.com/lorisleiva/cron-translator to add more.
+
+## 24-Hour Time Format
+
+To display time in the 24-hour format, the cron component acccepts a `use24hour` attribute:
+
+```html
+<x-cron schedule="@weekly" locale="fr" use24hour="true" human />
+```
+
+This will output the following HTML:
+
+```html
+<span title="@weekly">
+    Chaque dimanche à 0:00
+</span>
+```
