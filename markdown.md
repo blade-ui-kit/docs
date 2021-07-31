@@ -27,7 +27,7 @@ Blade UI components are **awesome**.
 Or pass in the above Markdown as a string variable:
 
 ```html
-<x-markdown>{{ $markdown }}</x-markdown>
+<x-markdown>{!! $markdown !!}</x-markdown>
 ```
 
 This will output the following HTML:
@@ -66,7 +66,7 @@ You can also pass options to Commonmark with the `options` attribute. This requi
 <x-markdown
     name="about"
     :options="['use_underscore' => false]"
->{{ $markdown }}</x-markdown>
+>{!! $markdown !!}</x-markdown>
 ```
 
 For a full reference of all options, please consult [the Commonmark documentation](https://commonmark.thephpleague.com/1.5/configuration/).
