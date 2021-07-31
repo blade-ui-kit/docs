@@ -26,7 +26,7 @@ As you can see, all the implementation details about the behavior of the compone
 
 All of Blade UI Kit's components were designed with this in mind, letting you worry less about implementation details and allowing you to focus on what truly matters: *building your app*... all while providing a great developer experience.
 
-To give you a more proper demonstration of the library, we've built [an example Laravel project](https://github.com/blade-ui-kit/blade-ui-kit-example) that makes use of some of the components from Blade UI Kit.
+To give you a more proper demonstration of the library, we've built [a demo Laravel project](https://github.com/blade-ui-kit/demo) that makes use of some of the components from Blade UI Kit.
 
 ## Composition
 
