@@ -25,6 +25,5 @@ This will output the following HTML:
 The `checkbox` component also supports checked values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `checkbox` component will remember the checked value:
 
 ```html
-<input name="remember_me" type="checkbox" id="remember_me" checked />
+<input name="remember_me" type="checkbox" id="remember_me" value="1" checked />
 ```
-
