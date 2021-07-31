@@ -1,11 +1,12 @@
 # Flatpickr
 
-The `flatpickr` component offers an integration with [the FlatPickr Date/Time library](https://flatpickr.js.org/). By using it, you can simply add a Date/Time picker to your form with one component. it's a lightweight, powerful and doesn’t depend on any libraries
+The `flatpickr` component offers an integration with [the FlatPickr Date/Time library](https://flatpickr.js.org/). By using it, you can simply add a datetime picker to your form with one component.
 
 ## Installation
 
 While the `flatpickr` component works out-of-the-box when you've [set the directives](/docs/{{version}}/installation#directives), we recommend that you install and compile its JavaScript libraries before you deploy to production:
 
+- [Alpine.js](https://alpinejs.dev/essentials/installation) `^2.3`
 - [Flatpickr](https://flatpickr.js.org/getting-started) `^4`
 
 ## Basic Usage
@@ -38,7 +39,7 @@ The `flatpickr` component also supports old values that were set. For example, y
     name="birthday"
     type="text"
     id="birthday"
-    value="20/05/1989"
+    value="20/05/2021"
     placeholder="Y-m-d H:i"
 />
 ```
@@ -62,7 +63,7 @@ This will output the following HTML *(inline JS has been omitted)*:
 />
 ```
 
-For a full reference of all formatting options, please consult [their documention](https://flatpickr.js.org/formatting/).
+For a full reference of all formatting options, please consult [the Flatpickr documention](https://flatpickr.js.org/formatting/).
 
 ## Passing Options
 
