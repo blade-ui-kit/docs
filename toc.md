@@ -39,7 +39,7 @@ Some content.
 Or pass in the above Markdown as a string variable:
 
 ```html
-<x-toc>{{ $markdown }}</x-toc>
+<x-toc>{!! $markdown !!}</x-toc>
 ```
 
 This will output the following HTML:
