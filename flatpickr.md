@@ -70,7 +70,7 @@ For a full reference of all formatting options, please consult [the Flatpickr do
 You can also pass options to Pikaday with the `options` attribute. This requires you to pass a PHP array with scalar values. Below is an example where we set the position of calender above input instead of the default value auto:
 
 ```html
-<x-pikaday name="birthday" :options="['position' => 'above']" />
+<x-flat-pickr name="birthday" :options="['position' => 'above']" />
 ```
 
 For a full reference of all options, please consult [the Flatpickr documentation](https://flatpickr.js.org/options/).
