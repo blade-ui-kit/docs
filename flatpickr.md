@@ -1,10 +1,10 @@
 # Flatpickr
 
-The `flatpickr` component offers an integration with [the FlatPickr Date/Time library](https://flatpickr.js.org/). By using it, you can simply add a datetime picker to your form with one component.
+The `flat-pickr` component offers an integration with [the Flatpickr Date/Time library](https://flatpickr.js.org/). By using it, you can simply add a datetime picker to your form with one component.
 
 ## Installation
 
-While the `flatpickr` component works out-of-the-box when you've [set the directives](/docs/{{version}}/installation#directives), we recommend that you install and compile its JavaScript libraries before you deploy to production:
+While the `flat-pickr` component works out-of-the-box when you've [set the directives](/docs/{{version}}/installation#directives), we recommend that you install and compile its JavaScript libraries before you deploy to production:
 
 - [Alpine.js](https://alpinejs.dev/essentials/installation) `^2.3`
 - [Flatpickr](https://flatpickr.js.org/getting-started) `^4`
@@ -32,7 +32,7 @@ As you can see, the component sets a couple of nice defaults for your component.
 
 ### Old Values
 
-The `flatpickr` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `flatpickr` component will remember the old value:
+The `flat-pickr` component also supports old values that were set. For example, you might want to apply some validation in the backend, but also make sure the user doesn't lose their input data when you re-render the form with any validation errors. When re-rendering the form, the `flat-pickr` component will remember the old value:
 
 ```html
 <input
@@ -79,7 +79,7 @@ For a full reference of all options, please consult [the Flatpickr documentation
 
 ## Setting Defaults
 
-If you'd like to set some sensible defaults for all your `flatpickr` component usages you can do so by overwriting the component class and `options` method:
+If you'd like to set some sensible defaults for all your `flat-pickr` component usages you can do so by overwriting the component class and `options` method:
 
 ```php
 <?php
@@ -108,7 +108,7 @@ After overwriting the component we'll need to register it in our `blade-ui-kit.p
 return [
     'components' => [
         ...
-        'flatpickr' => \App\View\Components\FlatPickr::class,
+        'flat-pickr' => \App\View\Components\FlatPickr::class,
         ...
     ],
 ];
