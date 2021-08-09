@@ -87,7 +87,7 @@ If you'd like to set some sensible defaults for all your `pikaday` component usa
 
 namespace App\View\Components;
 
-class Pikaday extends \BladeUIKit\Components\Forms\Pikaday
+class Pikaday extends \BladeUIKit\Components\Forms\Inputs\Pikaday
 {
     public function options(): array
     {
