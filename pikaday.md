@@ -114,3 +114,13 @@ return [
     ],
 ];
 ```
+
+## Catching the onchange event in Laravel Livewire
+
+Laravel Livewire is not capable of catching the onchange event on the pikaday component by default.  If you want to catch
+the onchange event you can do this with `lazy` data binding.
+
+```php
+<x-pikaday name="birthday" wire:model.lazy="birthday">
+```
+
