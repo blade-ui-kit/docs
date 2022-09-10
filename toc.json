@@ -7,11 +7,11 @@
             },
             {
                 "file": "tooling",
-                "icon": "heroicon-o-puzzle"
+                "icon": "heroicon-o-puzzle-piece"
             },
             {
                 "file": "community",
-                "icon": "heroicon-o-chat-alt-2"
+                "icon": "heroicon-o-chat-bubble-left-ellipsis"
             }
         ]
     },
