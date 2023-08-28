@@ -81,10 +81,10 @@ This uses Alpine to determine in which timezone the user is browsing.
 
 ### Formatting with Local
 
-Formatting when using with the `local` boolean attribute works a little differently. You can still use the `format` attribute but instead of using [PHP's date formatting](https://www.php.net/manual/en/datetime.format.php) you'll need to use [Moment.js' date formatting options](https://momentjs.com/docs/#/displaying/format/).
+Formatting when using with the `local` attribute works a little differently. Instead of using the `format` attribute, you have to set the `local` attribute to the format that you want. And instead of using [PHP's date formatting](https://www.php.net/manual/en/datetime.format.php) you'll need to use [Moment.js' date formatting options](https://momentjs.com/docs/#/displaying/format/).
 
 ```html
-<x-carbon :date="$date" local format="DD/MM/YYYY HH:mm (z)" />
+<x-carbon :date="$date" local="DD/MM/YYYY HH:mm (z)" />
 ```
 
 This will output the following HTML:
