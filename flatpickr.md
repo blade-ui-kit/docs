@@ -6,7 +6,7 @@ The `flat-pickr` component offers an integration with [the Flatpickr Date/Time l
 
 While the `flat-pickr` component works out-of-the-box when you've [set the directives](/docs/{{version}}/installation#directives), we recommend that you install and compile its JavaScript libraries before you deploy to production:
 
-- [Alpine.js](https://alpinejs.dev/essentials/installation) `^2.3`
+- [Alpine.js](https://alpinejs.dev/essentials/installation) `^3.0`
 - [Flatpickr](https://flatpickr.js.org/getting-started) `^4`
 
 ## Basic Usage
