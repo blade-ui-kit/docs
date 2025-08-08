@@ -116,6 +116,7 @@
         "pages": [
             "avatar",
             "cron",
+            "money",
             "unsplash"
         ]
     }
