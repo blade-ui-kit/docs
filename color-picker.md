@@ -51,6 +51,33 @@ For a full reference of all options, please consult [the Pickr documentation](ht
 
 > Please note that only scalar values are supported. You cannot use any JavaScript language specific options like callbacks.
 
+## Listening for events
+
+The `color-picker` component emits two events:
+
+- `buk:color-save` when Pickr emits the `save` event. When the user clicks save/clear.
+- `buk:color-change` on the Pickr `change` event. Emits when the color has changed (but not saved).
+
+*You can read more about the Pickr `save` and `change` events in the [Pickr documentation](https://github.com/Simonwep/pickr?tab=readme-ov-file#events).*
+
+In both events, the color value is contained in the `.detail.color` property of the event. And the id of the color picker is contained in the `.detail.id` property.
+
+To listen to the events you can use [Alpine.js](https://alpinejs.dev/directives/on):
+
+```html
+<x-color-picker name="color" @buk:color-save="console.log(`Saved to ${$event.detail.color}`)" />
+
+<x-color-picker name="color" @buk:color-change="console.log(`${$event.detail.id} changed!`)" />
+```
+
+Or vanilla JavaScript:
+
+```js
+window.addEventListener('buk:color-change', function(event) {
+    console.log(`Color changed to ${event.detail.color} in element:`, event.target);
+});
+```
+
 ## Setting Defaults
 
 If you'd like to set some sensible defaults for all your `color-picker` component usages you can do so by overwriting the component class and `options` method:
